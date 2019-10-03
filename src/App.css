@@ -7,14 +7,14 @@
   box-sizing: border-box;
 }
 
-html,body,#root{
+html, body, #root {
   min-height: 100%;
 }
 
 body {
   background: #000 url('./assets/background.jpg') no-repeat;
   background-size: cover;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 body, input, button {
@@ -34,7 +34,7 @@ body, input, button {
 .content {
   width: 100%;
   background: #fff;
-  margin-top: 50%;
+  margin-top: 50px;
   border-radius: 4px;
   padding: 30px;
 }
